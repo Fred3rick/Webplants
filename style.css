@@ -1,0 +1,41 @@
+body, html{
+  font-family: 'Roboto', sans-serif;
+}
+
+a{color: #000; transition: all .3s ease;}
+a:hover{color: #9FEC01; text-decoration: none; transition: all .3s ease;}
+img{box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); margin-bottom: 20px;}
+
+/* ! Override CSS */
+
+.icons > .nav-item {
+  padding: 0px 15px 0px 15px;
+  color: #fff;
+  transition: all .3s ease;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 45px;
+}
+
+.navbar-brand{font-size: 1.5rem;}
+.dropdown-toggle::after{display: none;}
+.dropdown-toggle{cursor: pointer;}
+.dropdown-menu.show{margin-top: 25px; border-radius: 0; background-color: #1A2732; border: 0;}
+.dropdown-item{color: #fff;}
+.icons > .nav-item:hover {color: #9FEC01; transition: all .3s ease;}
+.table thead th{border-bottom: 0;}
+.table td, .table th{vertical-align: middle; padding: 0.7 rem; font-size: 15px;}
+.mobile__text{display: none;}
+.btn{border-radius: 8px; padding: 0; font-size: 17px;}
+.fa-marker{margin: 5px; color: #fff;}
+.fa-trash-alt{margin: 5px; color: #fff;}
+
+
+
+
+
+/* -------------------------------------------------------------------------------- */
+/* ! Small Devices (Smartphone normali in 9:16 da 576px in giù)
+/* -------------------------------------------------------------------------------- */
+@media (max-width: 576px) {
+}
